@@ -123,3 +123,14 @@ USE_TZ = True
 STATIC_URL = '/static/'
 MEDIA_URL='/media/'
 MEDIA_ROOT=MEDIA_DIR
+
+
+
+EMAIL_HOST='smtp.gmail.com'
+EMAIL_HOST_USER='harshadvali09@gmail.com'
+EMAIL_HOST_PASSWORD='nikky786'
+EMAIL_PORT=465
+EMAIL_USE_SSL=True
+EMIAL_USE_TLS=False
+
+

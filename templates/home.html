@@ -6,10 +6,21 @@
 
 
 {% block body_block %}
+{% if user %}
+    
+<div class='container'>
+    <div class='jumbotron'>
+        <h1>Welcome to HomePage Mr/Ms {{user}}</h1>
+    </div>
+</div>
+
+{% else %}
+
 <div class='container'>
     <div class='jumbotron'>
         <h1>Welcome to HomePage</h1>
     </div>
 </div>
+{% endif %}
 
     {% endblock %}
